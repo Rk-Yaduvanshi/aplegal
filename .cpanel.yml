@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/USERNAME/public_html/eskon
+    - /bin/cp -R *.php css js images $DEPLOYPATH
